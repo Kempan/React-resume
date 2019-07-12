@@ -1,0 +1,133 @@
+{
+  "main": {
+    "name":"Joakim Edwardh",
+    "occupation":"webbutvecklare",
+    "description":"Driven webbutvecklare från Göteborg med ett stort teknikintresse och ambitioner att bli en av Sveriges vassaste programmerare",
+    "image":"profilepic.jpg",
+    "bio":"Jag är 27 år gammal och bor i Majorna tillsammans med min sambo. Tog examen i Maj 2019 från Medieinstitutet där jag läste webbutveckling inom E-handel. När ögonen blöder eller det finns tid över brukar jag träna, resa, dricka öl.",
+    "contactmessage":"(UNDER KONSTRUKTION)",
+    "email": "Joakim.edwardh@hotmail.com",
+    "phone": "0760197892",
+    "address":{
+      "street":"Karl Johansgatan 15",
+      "city":"Göteborg",
+      "state":"Majorna",
+      "zip": "414 59"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/joakim.edwardh",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/joakim-edwardh-064780155/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/Kempan?tab=repositories",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Språk och plattformar som jag arbetat med under åren",
+    "education":[
+      {
+        "school":"Medieinstitutet",
+        "degree":"Webbutveckling inom E-handel",
+        "graduated":"Maj 2019",
+        "description":"2 årig KY-utbildning som gav mig en bred och uppdaterad kunskap om många språk och plattformar. Några utav kurserna vi läste: CSS, SASS, HTML, JavaScript, Vue, React, PHP"
+      },
+      {
+        "school":"Framtidsgymnasiet",
+        "degree":"Elprogrammet",
+        "graduated":"Juni 2011",
+        "description":"Inte nog med att jag är en fantastisk programmerare så kan jag även byta eluttag och är allmänt händig."
+      }
+    ],
+    "work":[
+      {
+        "company":"Wallmander&Co",
+        "title":"Junior wordpress-utvecklare",
+        "years":"Maj 2019 - Nuvarande anställning",
+        "description":"Jag gjorde min sista praktikperiod här och erbjöds anställning direkt efter examen. Wallmander&Co jobbar nästan enbart med wordpress och e-handel, jag jobbade med att utveckla nya systemlösningar till kund som tex sorteringssystem, orderbokningar och adminpaneler för Woocommerce. Det har varit givande men jag är på jakt efter en arbetsplats med bättre gemenskap och större utvecklingsmöjligheter."
+      }
+    ],
+    "skills":[
+      {
+        "name":"React-native",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"Wordpress / PHP",
+        "level":"75%"
+      },
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"MySQL",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"30%"
+      },
+      {
+        "name":"CSS",
+        "level":"80%"
+      },
+      {
+        "name":"SASS",
+        "level":"80%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Edwardh Resorts",
+        "category":"Beach resort projekt byggt i React med Contentful som backend.",
+        "image":"projectResort.png",
+        "url":"https://edwardh-resorts.netlify.com"
+      },
+      {
+        "title":"Resume",
+        "category":"Mitt CV som är byggt i React och tar lite plats här i Projekten hehe.",
+        "image":"projectResume.png",
+        "url":"https://edwardh-resorts.netlify.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Här skulle jag kunna skriva lite smöriga kommentarer om hur bra folk tycker jag är e.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
