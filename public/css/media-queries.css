@@ -358,6 +358,12 @@
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
+
+   /* Login styles
+   -------------------------------------------------------------------- */
+   #input-email{
+      margin-right: 0!important;
+   }
   
    /* header social links */
    header .social { font-size: 20px;}

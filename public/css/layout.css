@@ -18,7 +18,71 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+html, body, .App, #root { background: #0f0f0f; height: 100% }
+
+/* ------------------------------------------------------------------ */
+/* Login Page Styles
+/* ------------------------------------------------------------------ */
+
+.login-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white!important;
+    background: url(../images/background.jpg) no-repeat top center;
+}
+
+.top-container{
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px black;
+    background: #11ABB0;
+    margin-bottom: 50px;
+}
+
+#firebaseui-auth-container button{
+    display: flex;
+    align-items: center;
+}
+
+#firebaseui-auth-container button{
+   display: flex;
+   align-items: center;
+   width: 264px;
+}
+
+.firebaseui-idp-facebook:hover{
+   background: #3C5A99;
+}
+
+.firebaseui-idp-google:hover{
+   background: #ffffff;
+   color: grey;
+}
+
+.firebaseui-idp-github:hover{
+   background: #24292E;
+}
+
+.firebaseui-idp-icon-wrapper{
+    height: 40px;
+}
+
+#firebaseui-auth-container button img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.firebaseui-list-item{
+    display: flex;
+    justify-content: center;
+}
+
+.firebaseui-idp-text-short{
+    display: none;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -182,6 +246,17 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
+#logout-button{
+   background: transparent;
+}
+
+#input-email{
+   margin-right: 10px;
+}
+
+@media screen and (max-width: 451px){
+
+}
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -832,7 +907,6 @@ call-to-action .button {
 #contact p.lead {
     color: red!important;
    font: 28px/36px 'opensans-light', sans-serif;
-   padding-left: 5%;
     letter-spacing: 5px;
 }
 #contact .header-col { padding-top: 6px; }

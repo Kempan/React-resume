@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import firebase from "../Config/Firebase";
 
 class Header extends Component {
+
+    logout(){
+        firebase.auth().signOut();
+    }
+
    render() {
 
       if (this.props.data) {
          var name = this.props.data.name;
-         var occupation = this.props.data.occupation;
+         // var occupation = this.props.data.occupation;
          var description = this.props.data.description;
-         var city = this.props.data.address.city;
+         // var city = this.props.data.address.city;
          var networks = this.props.data.social.map(function (network) {
             return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
          })
@@ -17,19 +23,17 @@ class Header extends Component {
          <header id="home">
 
             <nav id="nav-wrap">
-
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#hide-nav-wrap" title="Hide navigation">Hide navigation</a>
 
                <ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Start</a></li>
-                  <li><a className="smoothscroll" href="#about">Om mig</a></li>
+                  <li><a className="smoothscroll" href="#about">About</a></li>
                   <li><a className="smoothscroll" href="#resume">Cv</a></li>
                   <li><a className="smoothscroll" href="#portfolio">Projekt</a></li>
-                  {/*<li><a className="smoothscroll" href="#testimonials">Referenser</a></li>*/}
                   <li><a className="smoothscroll" href="#contact">Kontakt</a></li>
+                   <li><a className="smoothscroll" href="#" onClick={this.logout}>Logga ut</a></li>
                </ul>
-
             </nav>
 
             <div className="row banner">

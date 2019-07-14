@@ -41,9 +41,8 @@
 	var navigation_links = $("#nav-wrap a");
 
 	sections.waypoint({
-
       handler: function(event, direction) {
-
+            console.log('hejsan');
 		   var active_section;
 
 			active_section = $(this);

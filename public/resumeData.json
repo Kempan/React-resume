@@ -2,10 +2,10 @@
   "main": {
     "name":"Joakim Edwardh",
     "occupation":"webbutvecklare",
-    "description":"Driven webbutvecklare från Göteborg med ett stort teknikintresse och ambitioner att bli en av Sveriges vassaste programmerare. Hörde att ni sökte utvecklare på Cilbuper och baserat på eran hemsida tyckte jag att erat företag verkade vara ett ställe jag skulle kunna trivas och utvecklas på",
+    "description":"Driven webbutvecklare från Göteborg med ett stort teknikintresse och ambitioner att bli en av Sveriges vassaste programmerare. Hörde att ni sökte utvecklare på Cilbuper och efter att ha tittat runt på eran hemsida verkar det vara ett ställe jag skulle trivas och utvecklas på",
     "image":"profilepic.jpg",
     "bio":"Jag är 27 år gammal och bor i Majorna tillsammans med min sambo. Tog examen i Maj 2019 från Medieinstitutet där jag läste webbutveckling inom E-handel. När ögonen blöder eller det finns tid över brukar jag träna, resa, dricka öl.",
-    "contactmessage":"(UNDER KONSTRUKTION)",
+    "contactmessage":"(Formulär under konstruktion)",
     "email": "Joakim.edwardh@hotmail.com",
     "phone": "0760197892",
     "address":{
@@ -14,8 +14,7 @@
       "state":"Majorna",
       "zip": "414 59"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.joakim-edwardh@netlify.com",
     "social":[
       {
         "name":"facebook",
@@ -52,7 +51,7 @@
         "school":"Framtidsgymnasiet",
         "degree":"Elprogrammet",
         "graduated":"Juni 2011",
-        "description":"Inte nog med att jag är en fantastisk programmerare så kan jag även byta eluttag och är allmänt händig."
+        "description":"Inte nog med att jag är en fantastisk programmerare, jag även byta eluttag och är allmänt händig."
       }
     ],
     "work":[
@@ -115,18 +114,6 @@
         "category":"Mitt CV som är byggt i React och tar lite plats här i Projekten hehe.",
         "image":"projectResume.png",
         "url":"https://edwardh-resorts.netlify.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Här skulle jag kunna skriva lite smöriga kommentarer om hur bra folk tycker jag är e.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
