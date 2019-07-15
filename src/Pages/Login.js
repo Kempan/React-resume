@@ -49,7 +49,6 @@ const uiConfig = {
     ],
 };
 
-
 class Login extends Component {
 
     constructor(props){
@@ -57,7 +56,11 @@ class Login extends Component {
         this.state = {
             email: '',
             password: '',
-            error: ''
+            error: '',
+            guest: {
+                email: 'guest@guest.se',
+                password: 'guestguest'
+            }
         };
 
         this.login = this.login.bind(this);
@@ -69,7 +72,7 @@ class Login extends Component {
     }
 
     login(e){
-        firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
+        firebase.auth().signInWithEmailAndPassword(e.email, e.password)
         .then(response => {
             console.log(response);
         })
@@ -150,8 +153,11 @@ class Login extends Component {
                     <button style={{marginRight: '10px'}} onClick={() => this.login(this.state)}>
                         Logga in
                     </button>
-                    <button onClick={() => this.signUp(this.state)}>
+                    <button style={{marginRight: '10px'}} onClick={() => this.signUp(this.state)}>
                         Skapa konto
+                    </button>
+                    <button onClick={() => this.login(this.state.guest)}>
+                        Fortsätt som gäst
                     </button>
 
                     <div id="firebaseui-auth-container"></div>

@@ -32,13 +32,13 @@ html, body, .App, #root { background: #0f0f0f; height: 100% }
     text-align: center;
     color: white!important;
     background: url(../images/background.jpg) no-repeat top center;
+   background-size: cover;
 }
 
 .top-container{
     padding: 20px;
     border-radius: 10px;
     text-shadow: 2px 2px black;
-    background: #11ABB0;
     margin-bottom: 50px;
 }
 
