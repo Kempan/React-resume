@@ -40,30 +40,31 @@ html, body, .App, #root { background: #0f0f0f; height: 100% }
     border-radius: 10px;
     text-shadow: 2px 2px black;
     margin-bottom: 50px;
+   background: rgba(17, 171, 176, .6);
 }
 
-#firebaseui-auth-container button{
-    display: flex;
-    align-items: center;
+.login-button{
+   background: rgba(17, 171, 176, .8);
 }
 
 #firebaseui-auth-container button{
    display: flex;
    align-items: center;
    width: 264px;
+   background: rgba(17, 171, 176, .8);
 }
 
 .firebaseui-idp-facebook:hover{
-   background: #3C5A99;
+   background: #3C5A99!important;
 }
 
 .firebaseui-idp-google:hover{
-   background: #ffffff;
+   background: #ffffff!important;
    color: grey;
 }
 
 .firebaseui-idp-github:hover{
-   background: #24292E;
+   background: #24292E!important;
 }
 
 .firebaseui-idp-icon-wrapper{
