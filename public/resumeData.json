@@ -110,10 +110,16 @@
         "url":"https://edwardh-resorts.netlify.com"
       },
       {
+        "title":"Waddap",
+        "category":"Hemsida bygg i wordpress för att sälja klockor & accessoar.",
+        "image":"projectWaddap.png",
+        "url":"https://waddap.se"
+      },
+      {
         "title":"Resume",
         "category":"Mitt CV som är byggt i React och tar lite plats här i Projekten hehe.",
         "image":"projectResume.png",
-        "url":"https://edwardh-resorts.netlify.com"
+        "url":"https://waddap.se"
       }
     ]
   }
