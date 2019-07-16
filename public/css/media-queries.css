@@ -89,7 +89,6 @@
    }
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
 
-
 }
 
 /* mobile wide/smaller tablets
@@ -100,13 +99,14 @@
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
-      font: 12px 'opensans-bold', sans-serif;
-      background: transparent !important;
-      letter-spacing: 1.5px;  
-      width: auto;
+      width: 100%;
+      text-transform: uppercase;
+      background: transparent;
+      margin: 0 auto;
+      z-index: 100;
       position: fixed;
+      left: 0;
       top: 0;
-      right: 0;
    }
    #nav-wrap > a {
 	   width: 48px;
@@ -211,6 +211,13 @@
 
     /* scrolldown link */
    header .scrolldown { display: none; }
+
+   .top-container h1{
+      font-size: 28px!important;
+   }
+   .top-container h3{
+      font-size: 12px!important;
+   }
 
 
    /* About Section
@@ -357,6 +364,14 @@
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
+   }
+
+   .top-container h3{
+      font-size: 12px!important;
+      padding-top: 15px;
+   }
+   .headerText{
+      display: none;
    }
 
    /* Login styles

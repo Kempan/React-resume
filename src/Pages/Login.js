@@ -128,8 +128,8 @@ class Login extends Component {
             <div className="login-wrapper">
                 <div className="login-container">
                     <div className="top-container">
-                        <h1 style={{color: 'white'}}>Talk is weak, show me code</h1>
-                        <p style={{color: 'white', margin: '0'}}>Logga in eller registrera dig för att komma vidare</p>
+                        <h1 className="headerText">Talk is weak, show me code</h1>
+                        <h3 style={{color: 'white', margin: '0'}}>Logga in eller registrera dig för att komma vidare</h3>
                         {this.state.error ? <p style={{color: 'white',  margin: '0'}}>{this.state.error}</p> : ''}
                     </div>
 

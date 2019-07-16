@@ -206,6 +206,18 @@ header .description{
    left: 0;
    top: 0;
 }
+#nav-wrap-tablet {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   background: grey;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 100px;
+   top: 0;
+}
 .opaque { background-color: #333; }
 
 /* hide toggle button */
@@ -253,10 +265,6 @@ ul#nav li.current a { color: #F06000; }
 
 #input-email{
    margin-right: 10px;
-}
-
-@media screen and (max-width: 451px){
-
 }
 
 /* ------------------------------------------------------------------ */
@@ -571,6 +579,7 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
    height: 140px;
+   width: 100%;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -1088,3 +1097,7 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+.headerText{
+   color: white;
+}
