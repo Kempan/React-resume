@@ -32,7 +32,7 @@ class Header extends Component {
                   <li><a className="smoothscroll" href="#resume">Cv</a></li>
                   <li><a className="smoothscroll" href="#portfolio">Projekt</a></li>
                   <li><a className="smoothscroll" href="#contact">Kontakt</a></li>
-                   <li><a className="smoothscroll" href="#" onClick={this.logout}>Logga ut</a></li>
+                   <li><button className="smoothscroll logout-button" onClick={this.logout}>Logga ut</button></li>
                </ul>
             </nav>
 

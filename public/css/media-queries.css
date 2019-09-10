@@ -374,6 +374,14 @@
       display: none;
    }
 
+   /* Portfolio Section
+   /* ----------------------------------------------------------------- */
+   .portfolio-item .item-wrap img {
+      vertical-align: bottom;
+      height: unset;
+      width: 100%;
+   }
+
    /* Login styles
    -------------------------------------------------------------------- */
    #input-email{

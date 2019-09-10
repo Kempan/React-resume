@@ -2,9 +2,9 @@
   "main": {
     "name":"Joakim Edwardh",
     "occupation":"webbutvecklare",
-    "description":"Driven webbutvecklare från Göteborg med ett stort teknikintresse och ambitioner att bli en av Sveriges vassaste programmerare. Hörde att ni sökte utvecklare på Cilbuper och efter att ha tittat runt på eran hemsida verkar det vara ett ställe jag skulle kunna trivas och utvecklas på",
+    "description":"Driven webbutvecklare från Göteborg med ett stort teknikintresse och ambitioner att bli en av Sveriges vassaste programmerare",
     "image":"profilepic.jpg",
-    "bio":"Jag är 27 år gammal och bor i Majorna tillsammans med min sambo. Tog examen i Maj 2019 från Medieinstitutet där jag läste webbutveckling inom E-handel. När ögonen blöder eller det finns tid över brukar jag träna, resa, dricka öl.",
+    "bio":"Jag är 27 år gammal och bor i Majorna tillsammans med min sambo. Tog examen i Maj 2019 från Medieinstitutet där jag läste webbutveckling inom E-handel. När ögonen blöder eller det finns tid över brukar jag träna, resa eller dricka öl.",
     "contactmessage":"(Formulär under konstruktion)",
     "email": "Joakim.edwardh@hotmail.com",
     "phone": "0760197892",
@@ -45,21 +45,21 @@
         "school":"Medieinstitutet",
         "degree":"Webbutveckling inom E-handel",
         "graduated":"Maj 2019",
-        "description":"2 årig KY-utbildning som gav mig en bred och uppdaterad kunskap om många språk och plattformar. Några utav kurserna vi läste: CSS, SASS, HTML, JavaScript, Vue, React, PHP"
+        "description":"2 årig KY-utbildning som gav mig en bred och uppdaterad kunskap om många språk och plattformar. Kurser som vi läste: CSS, SASS, HTML, JavaScript, React, PHP, Magento."
       },
       {
         "school":"Framtidsgymnasiet",
         "degree":"Elprogrammet",
         "graduated":"Juni 2011",
-        "description":"Inte nog med att jag är en fantastisk programmerare, jag även byta eluttag och är allmänt händig."
+        "description":"Inte nog med att jag är en fantastisk programmerare, jag kan även byta eluttag och är allmänt händig."
       }
     ],
     "work":[
       {
-        "company":"Wallmander&Co",
+        "company":"Wallmander & Co",
         "title":"Junior wordpress-utvecklare",
         "years":"Maj 2019 - Nuvarande anställning",
-        "description":"Jag gjorde min sista praktikperiod här och erbjöds anställning direkt efter examen. Wallmander&Co jobbar nästan enbart med wordpress och e-handel, jag jobbade med att utveckla nya systemlösningar till kund som tex sorteringssystem, orderbokningar och adminpaneler för Woocommerce. Det har varit givande men jag är på jakt efter en arbetsplats med bättre gemenskap och större utvecklingsmöjligheter."
+        "description":"Jag gjorde min sista praktikperiod här och erbjöds anställning direkt efter examen. Wallmander & Co sysslar mestadels med wordpress, e-handel och integrationer mellan affärssystem. Här jobbar jag oftast med att vidareutveckla eller bygga nya systemlösningar till wordpress i form av scripts eller plugins men det blir även en del front end. Det har varit givande men nu jag är på jakt efter en arbetsplats med bättre gemenskap och större utvecklingsmöjligheter."
       }
     ],
     "skills":[
@@ -68,7 +68,7 @@
         "level":"60%"
       },
       {
-        "name":"ReactJs",
+        "name":"React",
         "level":"60%"
       },
       {
@@ -84,7 +84,7 @@
         "level":"60%"
       },
       {
-        "name":"VueJs",
+        "name":"Vue",
         "level":"30%"
       },
       {
@@ -96,7 +96,7 @@
         "level":"80%"
       },
       {
-        "name":"HTML5",
+        "name":"HTML",
         "level":"80%"
       }
     ]
@@ -111,15 +111,21 @@
       },
       {
         "title":"Waddap",
-        "category":"Hemsida bygg i wordpress för att sälja klockor & accessoar.",
-        "image":"projectWaddap.png",
+        "category":"Wordpress site byggd som mall för IT företag.",
+        "image":"waddap.png",
         "url":"https://waddap.se"
       },
       {
+        "title":"Jewlery store",
+        "category":"E-handel byggt med wordpress och woocommerce.",
+        "image":"johanna.png",
+        "url":"https://johannaedwardh.com"
+      },
+      {
         "title":"Resume",
-        "category":"Mitt CV som är byggt i React och tar lite plats här i Projekten hehe.",
+        "category":"Mitt CV som är byggt i React.",
         "image":"projectResume.png",
-        "url":"https://waddap.se"
+        "url":"https://joakim-edwardh.netlify.com"
       }
     ]
   }
