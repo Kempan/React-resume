@@ -1,5 +1,5 @@
-import firebase from 'firebase';
-import firebaseui from 'firebaseui';
+import * as firebase from 'firebase';
+import * as firebaseui from 'firebaseui'
 
 const firebaseConfig = {
     apiKey: "AIzaSyA0iOnDGChZ2CayDUn0mGHa_wKsvW9rUf8",
