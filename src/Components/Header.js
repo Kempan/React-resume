@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import firebase from "../Config/Firebase";
+import firebase from 'firebase';
 
 class Header extends Component {
 

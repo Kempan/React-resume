@@ -9,7 +9,7 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import Login from './Pages/Login';
 
-import firebase from './Config/Firebase';
+import firebase from 'firebase';
 
 class App extends Component {
 
@@ -23,12 +23,9 @@ class App extends Component {
   }
 
   authListener(){
-
     firebase.auth().onAuthStateChanged((user) => {
         this.setState({user, loading: false});
-        console.log(user);
     })
-
   }
 
   getResumeData(){
