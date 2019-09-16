@@ -76,16 +76,16 @@
         "level":"80%"
       },
       {
-        "name":"Git",
-        "level":"70%"
-      },
-      {
         "name":"React-native",
-        "level":"60%"
+        "level":"75%"
       },
       {
         "name":"React",
-        "level":"60%"
+        "level":"75%"
+      },
+      {
+        "name":"Git",
+        "level":"70%"
       },
       {
         "name":"JavaScript",
