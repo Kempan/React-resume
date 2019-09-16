@@ -20,7 +20,7 @@ class Contact extends Component {
 
             <div className="row section-head">
 
-               <div className="twelve columns text-center">
+               <div className="eleven columns text-center">
 
                   <p className="lead">{message}</p>
                   <p className="lead"><a className="lead" href="mailto:joakim.edwardh@hotmail.com">Använd denna länken sålänge!</a></p>

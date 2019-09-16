@@ -64,6 +64,22 @@
     ],
     "skills":[
       {
+        "name":"Wordpress / PHP",
+        "level":"85%"
+      },
+      {
+        "name":"HTML",
+        "level":"80%"
+      },
+      {
+        "name":"CSS, SASS, STYLUS etc",
+        "level":"80%"
+      },
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
         "name":"React-native",
         "level":"60%"
       },
@@ -72,12 +88,8 @@
         "level":"60%"
       },
       {
-        "name":"Wordpress / PHP",
-        "level":"90%"
-      },
-      {
-        "name":"Git",
-        "level":"70%"
+        "name":"JavaScript",
+        "level":"55%"
       },
       {
         "name":"MySQL",
@@ -86,18 +98,6 @@
       {
         "name":"Vue",
         "level":"30%"
-      },
-      {
-        "name":"CSS",
-        "level":"80%"
-      },
-      {
-        "name":"SASS",
-        "level":"80%"
-      },
-      {
-        "name":"HTML",
-        "level":"80%"
       }
     ]
   },
@@ -111,7 +111,7 @@
       },
       {
         "title":"Waddap",
-        "category":"Wordpress site byggd som mall för IT företag.",
+        "category":"E-handel för klockbutik byggd i wordpress.",
         "image":"waddap.png",
         "url":"https://waddap.se"
       },
