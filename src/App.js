@@ -8,7 +8,6 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import Login from './Pages/Login';
-
 import firebase from 'firebase';
 
 class App extends Component {
